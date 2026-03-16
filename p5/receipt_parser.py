@@ -8,7 +8,7 @@ def normalize_number(s):
 
 
 def extract_datetime(text):
-    match = re.search(r"Time:\s*(\d{2}\.\d{2}\.\d{4})\s+(\d{2}:\d{2}:\d{2})", text)
+    match = re.search(r"Time:\s*(\d{2}\.\d{2}\.\d{ss4})\s+(\d{2}:\d{2}:\d{2})", text)
     if match:
         return match.group(1), match.group(2)
     return None, None
