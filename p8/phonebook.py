@@ -59,7 +59,7 @@ def delete_contact():
 
 def menu():
     while True:
-        print("\n1. Show all")
+        print("1. Show all")
         print("2. Search")
         print("3. Add/Update")
         print("4. Delete")
