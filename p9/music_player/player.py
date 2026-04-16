@@ -18,7 +18,7 @@ class MusicPlayer:
                 files.append(os.path.join(self.music_folder, file))
         return files
 
-    def play(self):
+    def play(self): 
         if not self.playlist:
             print("Нет музыки")
             return
